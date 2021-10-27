@@ -1,0 +1,190 @@
+///////////////////Header
+//  desktop menu hamburger
+.burger_desktop{
+    z-index: 10;
+    position: fixed;
+    top:40px;
+    right:40px;
+    font-size: 70px;
+    line-height: 50px;
+    transition: .3s linear;
+    .fa{
+        display: none;
+        color: black;
+    }
+    .show{
+        display: block;
+    }
+
+}
+
+.burger_desktop:hover{
+    cursor: pointer;
+}
+
+aside{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -335px;
+    width: 335px;
+    background-color: black;
+    transition: .3s linear;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+aside.show{
+    left:0;
+
+}
+.naw_2{
+    height:50%;
+}
+///////
+
+// mobile menu hamburger
+
+.wrapper{
+    margin: 10px 70px;
+    p{
+        font-size: 18px;
+        line-height: 200%;
+    }
+}
+.burger_mobile{
+    z-index: 3!important;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-size: 50px;
+    z-index: 1;
+    cursor: pointer;
+    .fa-angle-up{
+        color:white;
+    }
+    .fa-bars{
+        color: black;
+    }
+}
+
+i.off{
+    display: none;
+}
+.naw{
+    z-index: 2;
+    position: fixed;
+    height:80vh;
+    width:100%;
+    top: 0;
+    background-color: black;
+    transition: .3s linear;
+
+}
+.naw.off{
+    top: -80vh;
+    
+}
+////////
+// Inside Menu
+// mobile
+
+.naw{
+    ul.menu {
+        list-style-type: none;
+        width:calc(100% + 40px);
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+        li{
+            color:white;
+            line-height: 2rem;;
+            font-size:1.8rem;
+            text-transform: uppercase;
+            text-align: center;
+            margin-left:-20%;
+            a{
+                text-decoration: none;
+                width:100px;
+       
+                color:white
+            }
+            a:hover{
+                color:#a0b9bd;
+            }
+        }
+    
+      }
+}
+  
+//   desktop
+
+  @media screen and (min-width: 767.8px) {
+.naw_2{
+    ul.menu {
+        list-style-type: none;
+        width:calc(100% + 40px);
+        height:100%;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding:0;
+      }
+      li{
+        line-height: 2rem;;
+        font-size:1.8rem;
+        text-transform: uppercase;
+        text-align: center;
+          a{
+              
+              color:white;
+              transition: .15s linear;
+              text-decoration: none;
+              width:100px;
+          }
+          a:hover{
+              color:#a0b9bd;
+              margin-left:45px!important;
+              font-size:1.9rem;
+          }
+      }
+    }
+  
+}
+////////////////  footer
+
+.footer_menu{
+    width:100%;
+    
+        ul.menu{
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            flex-wrap: wrap;
+            margin-left:-5%;
+                li{
+                    
+                    a{
+                        text-transform: uppercase;
+                        text-decoration: overline;
+                        color: white;
+                        letter-spacing: 2px;
+                        font-size: 1.4rem;   
+
+                        
+                    }
+
+                a:hover{
+                    color: #a0b9bd;
+                }
+            }
+        }
+}
+  
+  

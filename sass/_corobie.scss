@@ -1,0 +1,52 @@
+div.corobie{
+
+    // background:linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.78)),url(http://fotografia.test/wp-content/uploads/2021/09/slider_photo1.jpeg);
+    // background-position: 50%;
+    
+    div{
+        div{
+            h1{
+                letter-spacing: 1px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 2.3rem;
+                line-height: 1.1;
+         
+            }
+            h2{
+                letter-spacing: 1px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 2.3rem;
+            }
+            ul{
+                font-size: 1.2rem;
+                font-weight: 700;
+                font-family: 'Open Sans',sans-serif !important;
+                list-style-type: none;
+                li{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+            p{
+                font-size: 1.2rem;
+                font-weight: 700;
+                font-family: 'Open Sans',sans-serif !important;
+            }
+            h5{
+                display: flex;
+                justify-content: center;
+                padding:5vh;
+                text-align: center;
+                letter-spacing: 1px;
+                font-weight: 500;
+                font-size: 1.4rem;
+                font-family: Roboto, sans-serif;
+  
+            }
+        }
+    }
+}
+
+

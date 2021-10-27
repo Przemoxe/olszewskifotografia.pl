@@ -1,0 +1,56 @@
+.contain_about_banner{
+    height: 45vh;
+    background-size: cover;
+    
+    .content_about_banner{
+        height:80%;
+        h1{
+            font-size:1.6rem;
+            font-weight: 600;
+            padding-bottom:5%;
+            text-transform: uppercase;
+
+        }
+    }
+}
+@media screen and (min-width: 540px) {
+    .contain_about_banner {
+      height:60vh;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .contain_about_banner {
+      height:70vh;
+    }
+  }
+
+.intro_portfolio{
+    height:50vh;
+    div div{
+        h1{
+            letter-spacing: 1px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 2.3rem;
+            line-height: 1.1;
+            text-align:center;
+        }
+        p{
+            font-size: 1.2rem;
+            font-weight: 700;
+            font-family: 'Open Sans',sans-serif !important;
+            text-align:center;
+        }
+        a{
+          text-decoration: none;
+          color:black;
+          transition: .3s linear;
+        }
+        a:hover{
+          color: #a0b9bd;
+        }
+        h5{
+          padding-top:20%;
+        }
+    }
+}

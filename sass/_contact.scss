@@ -1,0 +1,50 @@
+.contain_contact_1{
+    h1{
+        text-transform: uppercase;
+    }
+    h2{
+        text-transform: uppercase;
+    }
+    h5{
+        text-transform: uppercase;
+    }
+}
+.contain_contact_2{
+    h1{
+        text-transform: uppercase;
+        color:white;
+    }
+    h2{
+        text-transform: uppercase;
+        color:white;
+    }
+    h5{
+        text-transform: uppercase;
+        color:white;
+    }
+    ul{
+        font-size:1.3rem;
+        padding-left:10px;;
+        font-weight: 500;
+    }
+    p{
+        font-weight: 500;
+    }
+}
+
+
+.social_icons_contact{
+    ul{
+        list-style-type: none;
+        font-size:1rem;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        letter-spacing: 20px;
+        
+        &:hover{
+            color:white;
+        }
+    }
+}
