@@ -1,9 +1,12 @@
 # olszewskifotografia.pl
 
-Galeria fotografa
-Użyte technologie:
--wordpress(CPT)
--javascript
+Technologie:
+-JS
+-Bootstrap
+-HTML
 -SCSS
--bootstrap
--ACF PRO
+-PHP
+-Gulp
+Wordpress:
+ -CPT
+ -ACF PRO
